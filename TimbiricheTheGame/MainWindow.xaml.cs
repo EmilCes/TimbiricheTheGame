@@ -44,6 +44,21 @@ namespace TimbiricheTheGame
         {
             changeLanguage();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void onClickCreateAccount(object sender, RoutedEventArgs e)
+        {
+            System.Globalization.CultureInfo currentCulture = System.Threading.Thread.CurrentThread.CurrentUICulture;
+            string language = currentCulture.Name;
+            Console.WriteLine(language);
+            UserForm windowForm = new UserForm(language);
+            this.Close();
+            windowForm.Show();
+        }
+
 
     }
 }
