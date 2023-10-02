@@ -123,7 +123,7 @@
   <data name="btnLogin" xml:space="preserve">
     <value>Log in</value>
   </data>
-  <data name="lbForottenPassword" xml:space="preserve">
+  <data name="lbForgottenPassword" xml:space="preserve">
     <value>I forgot my password</value>
   </data>
   <data name="lbPassword" xml:space="preserve">

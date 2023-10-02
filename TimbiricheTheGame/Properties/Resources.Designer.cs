@@ -61,6 +61,15 @@ namespace TimbiricheTheGame.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Cambiar idioma.
+        /// </summary>
+        public static string btnChangeLanguage {
+            get {
+                return ResourceManager.GetString("btnChangeLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Crear cuenta.
         /// </summary>
         public static string btnCreateAccount {
@@ -79,11 +88,65 @@ namespace TimbiricheTheGame.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Datos de acceso.
+        /// </summary>
+        public static string lbAccessData {
+            get {
+                return ResourceManager.GetString("lbAccessData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha de Nacimiento.
+        /// </summary>
+        public static string lbBirthDate {
+            get {
+                return ResourceManager.GetString("lbBirthDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Crear cuenta.
+        /// </summary>
+        public static string lbCreateAccount {
+            get {
+                return ResourceManager.GetString("lbCreateAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Correo.
+        /// </summary>
+        public static string lbEmail {
+            get {
+                return ResourceManager.GetString("lbEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Olvidé mi contraseña.
         /// </summary>
-        public static string lbForottenPassword {
+        public static string lbForgottenPassword {
             get {
-                return ResourceManager.GetString("lbForottenPassword", resourceCulture);
+                return ResourceManager.GetString("lbForgottenPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Primer Apellido.
+        /// </summary>
+        public static string lbLastName {
+            get {
+                return ResourceManager.GetString("lbLastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Nombre.
+        /// </summary>
+        public static string lbName {
+            get {
+                return ResourceManager.GetString("lbName", resourceCulture);
             }
         }
         
@@ -97,11 +160,38 @@ namespace TimbiricheTheGame.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Datos personales.
+        /// </summary>
+        public static string lbPersonalInformation {
+            get {
+                return ResourceManager.GetString("lbPersonalInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Segundo Apellido.
+        /// </summary>
+        public static string lbSurname {
+            get {
+                return ResourceManager.GetString("lbSurname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Usuario.
         /// </summary>
         public static string lbUsername {
             get {
                 return ResourceManager.GetString("lbUsername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ¡Bienvenido a Timbiriche!.
+        /// </summary>
+        public static string lbWelcome {
+            get {
+                return ResourceManager.GetString("lbWelcome", resourceCulture);
             }
         }
     }
