@@ -7,7 +7,7 @@
         xmlns:windowManager="clr-namespace:TimbiricheTheGame.Properties;assembly=TimbiricheTheGame"
         xmlns:local="clr-namespace:TimbiricheTheGame"
         mc:Ignorable="d"
-        Title="Timbiriche The Game" Height="450" Width="700" Background="#005EE8">
+        Title="Timbiriche The Game" Height="770" Width="1200" Background="#005EE8">
 
     <Window.Resources>
         <Style TargetType="{x:Type TextBox}" >
